@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  padding: 150px 0 100px;
+  padding: 150px 0 80px;
   overflow: hidden;
   @include desktop {
     text-align: center;
@@ -87,7 +87,9 @@
   &-image {
     margin: -40px;
     img {
-      max-width: 100%;
+      max-width: 120%;
+      max-height: 120%;
+      padding-bottom: 19%;
     }
     @include desktop {
       margin: 0 auto 40px;
