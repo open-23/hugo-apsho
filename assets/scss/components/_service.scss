@@ -17,7 +17,7 @@
           }
         }
         &::after {
-          background: rgb(255, 187, 193);
+          background: $secondary-color;
         }
       }
     }
@@ -33,7 +33,7 @@
           }
         }
         &::after {
-          background: rgb(143, 186, 255);
+          background: $secondary-color;
         }
       }
     }
@@ -49,7 +49,7 @@
           }
         }
         &::after {
-          background: rgb(254, 231, 140);
+          background: $secondary-color;
         }
       }
     }
