@@ -1,12 +1,12 @@
 .footer {
-//position: relative;
-// padding: 150px 0 120px;
-//  overflow: hidden;
-//  background: url(../images/footer/drawing.svg);
-//  background-position: top center;
-//  background-size: cover;
+  position: relative;
+  padding: 120px 0 100px;
+  overflow: hidden;
+  background: url(../images/footer/footer-transparent-bg.svg);
+  background-position: top center;
+  background-size: cover;
   @include mobile {
-//    padding: 120px 0 50px;
+   padding: 120px 0 50px;
   }
   &-subscribe {
     &-title {
