@@ -17,18 +17,10 @@
     top: 0;
     left: 0;
     svg {
-      &:first-child {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 48%;
-      }
-      &:last-child {
-        width: 10%;
-        position: absolute;
-        top: 0;
-        left: 0;
-      }
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 65%;
     }
   }
 
@@ -113,7 +105,7 @@
     svg {
       path {
         &:first-child {
-          fill: #ffecee;
+          fill: $text-color;
         }
       }
     }
