@@ -1,4 +1,5 @@
-{{ with .Site.Data.hero }}
+{{ $data := index site.Data site.Language.Lang }}
+{{ with $data.hero }}
   {{ if .enable }}
     <section class="hero" id="main">
       <div class="hero-shape">
@@ -17,7 +18,7 @@
           </div>
           <div class="col-lg-6 order-1 order-lg-2">
             <div class="hero-image">
-              <img src={{ .image }} alt="hero-img" />
+              <img src={{ .image | absURL  }} alt="hero-img" />
             </div>
           </div>
         </div>

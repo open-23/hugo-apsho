@@ -29,7 +29,7 @@
             <ul>
               {{ $sitemap := .Site.Menus.sitemap }}
                 {{ range $sitemap }}
-                  <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+                  <li><a href="{{ $.Site.LanguagePrefix }}{{ .URL }}">{{ .Name }}</a></li>
               {{ end }}
             </ul>
           </div>
